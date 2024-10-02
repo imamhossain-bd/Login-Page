@@ -1,0 +1,50 @@
+body{
+    background-color: #d4d4d4;
+}
+.user_page{
+    width: 495px;
+    height: 330px;
+    background-color: #fff;
+    border: 2px solid rgba(221, 19, 228, 0.836);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    box-shadow: 6px 6px 12px rgb(170, 170, 170);
+}
+.heading h2{
+    text-align: center;
+}
+.remember_pass{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 6rem;
+    margin-bottom: 15px;
+}
+.form label{
+    margin-left: 62px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.form input{
+    padding: 15px 170px 15px 15px;
+    margin-left: 62px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #cacaca;
+}
+.btn{
+    display: flex;
+    padding: 13px 110px;
+    font-size: 18px;
+    border-radius: 11px;
+    border: none;
+    background-color: rgba(221, 19, 228, 0.836);
+    margin-top: 21px;
+    cursor: pointer;
+    color: white;
+    margin-left: 62px;
+}
+.remember_pass a{
+    text-decoration: none;
+}
