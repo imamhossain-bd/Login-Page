@@ -1,0 +1,119 @@
+body{
+    background-color: #f5f2f2;
+}
+.reg_form{
+    width: 600px;
+    height: 700px;
+    background-color: #d3d3d3;
+    box-shadow: 6px 6px 15px rgb(170, 170, 170);
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    color: #a853e0;
+    padding-top: 13px;
+    font-size: 20px;
+}
+.your_name{
+    padding: 10px 25px 20px 30px;
+    font-size: 20px;
+    font-size: 20px;
+    display: block;
+    gap: 10px;
+    
+}
+.your_name input{
+    padding: 14px;
+    width: 32rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.your_name label{
+    margin-left: 10px;
+}
+.date_and_number{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    gap: 15px;
+}
+.date_and_number input{
+    margin-top: 10px;
+    width: 14rem;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 26px;
+    font-size: 18px;
+}
+.date_and_number label{
+    margin-left: 32px;
+    font-size: 18px;
+}
+.gender{
+    margin-bottom: 13px;
+}
+.gender p{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.gender input{
+    margin-left: 35px;
+}
+.gender label{
+    font-size: 20px;
+}
+.address label{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.address .input_1{
+    width: 15rem;
+    margin-top: 15px;
+    padding: 15px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.address select{
+    width: 15rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    margin: 0 auto;
+    padding: 12px 197px;
+    font-size: 25px;
+    border-radius: 13px;
+    border: none;
+    font-weight: 600;
+    background-color: rgba(221, 19, 228, 0.836);
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.login_page{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.login_page a{
+    text-decoration: none;
+}
