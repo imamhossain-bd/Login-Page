@@ -74,7 +74,21 @@ body{
 .signup_page a{
     text-decoration: none;
 }
+#password:focus{
+    outline: none;
+}
+#emailAddress:focus {
+    border: 2px solid #007BFF;
+    outline: none;
+}
 
+#emailAddress:hover {
+    border: 2px solid #28A745;
+}
+
+#emailAddress:invalid {
+    border: 2px solid #DC3545;
+}
 
 
 

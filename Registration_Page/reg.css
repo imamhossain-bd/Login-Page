@@ -3,7 +3,7 @@ body{
 }
 .reg_form{
     width: 600px;
-    height: 700px;
+    height: 740px;
     background-color: #d3d3d3;
     box-shadow: 6px 6px 15px rgb(170, 170, 170);
     margin: 0 auto;
@@ -117,3 +117,23 @@ body{
 .login_page a{
     text-decoration: none;
 }
+#name:focus{
+    outline: none;
+}
+#emailAddress:focus{
+    outline: none;
+}
+#number:focus{
+    outline: none;
+}
+#date:focus{
+    outline: none;
+}
+#address:focus{
+    outline: none;
+}
+
+
+
+
+

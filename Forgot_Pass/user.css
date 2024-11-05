@@ -48,3 +48,6 @@ body{
 .remember_pass a{
     text-decoration: none;
 }
+#emailAddress:focus{
+    outline: none;
+}
