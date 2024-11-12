@@ -20,13 +20,36 @@ document.getElementById('name').addEventListener('keyup', function(event) {
 
 
 document.getElementById('registration').addEventListener('click', function(){
+
+    const name = document.form.name.value
+    const email = document.form.email.value
+    const password = document.form.password.value
+    const address = document.form.textarea.value
+
+    const message = document.getElementById('message')
     const validEmail = document.getElementById('emailAddress')
     const emailPattern = /^[a-z-0-9._%+-]+@[a-z-0-9.-]+\.[a-z]{2,}$/;
     if(emailPattern.test(validEmail.value)){
-        document.getElementById('emailAddress').style.borderColor = '#228B22'
+        validEmail.style.borderColor = "#228B22";
+        message.textContent = "Email Address Is valid"
     }
     else{
-        alert('Invalid Your Email Address. Please try again.')
-        document.getElementById('emailAddress').style.borderColor = '#ff0000'
+        message.textContent = "Please Enter Valid Email Address"
+        message.style.color = "#ff0000";
     }
+
+
+    doc = window.open('','','width=500px','height=500px')
+
+    with(document.doc){
+        write('Name:' + name);
+        write('<br>');
+        write('Email:' + email);
+        write('<br>');
+        write('Number:' + number);
+
+    }
+
+
+
 }) 
